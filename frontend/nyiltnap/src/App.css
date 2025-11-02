@@ -1,0 +1,12 @@
+#root {
+  width: 1280px;
+  margin: auto;
+}
+h1
+{
+  text-align: center;
+}
+body
+{
+  background-image: linear-gradient(pink,purple);
+}

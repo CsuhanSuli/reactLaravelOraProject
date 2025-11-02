@@ -1,0 +1,26 @@
+body
+{
+    background-image: linear-gradient(pink,cyan,pink);
+}
+section
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+section > div
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    width: 30%;
+    border: grey solid 3px;
+    border-radius: 20px;
+    gap: 1%;
+    background-color:aquamarine;
+}
+img
+{
+    width: 100%;
+    border-radius: 10px;
+}

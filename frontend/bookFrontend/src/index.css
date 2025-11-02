@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  background-image: url(/public/wallpaper.jpg);
+  min-width: 320px;
+  min-height: 100vh;
+}
+.container
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container > article
+{
+  background-color: rgba(255, 192, 203, 0.733);
+  margin: 50px;
+  padding: 5px;
+  border: darkred solid 3px;
+  border-radius: 10px;
+  color: darkblue;
+}

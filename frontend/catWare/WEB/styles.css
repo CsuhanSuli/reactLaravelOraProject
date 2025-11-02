@@ -1,0 +1,94 @@
+:root{
+    --blue: rgb(28, 46, 66);
+    --lightGray: #c8d7e1;
+    --darkGray:#555;
+    --shadowColor: rgba(0, 0, 0, 0.1);
+    --productBackground: rgba(255,255,255,0.7);
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--lightGray);
+    background-position: left top;
+    background-size: 100%;
+}
+
+nav, footer {
+  
+    background: var(--blue);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+
+}
+nav a:hover {
+    background: var(--darkGray);
+}
+.products {
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+button {
+    background: white   ;
+    color: var(--blue);
+    border: solid var(--blue) 1px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background: var(--blue);
+    color: white;
+}
+header
+{
+    height: 500px;
+    background-image: url(./img/fejlec.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1
+{
+    text-align: center;
+    padding-top: 250px;
+    margin: 0px;
+}
+@media only screen and (max-width: 768px) {
+  #nav {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+section
+{
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+article
+{
+    margin: auto;
+}
+@media only screen and (max-width: 768px) {
+  section {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+img{
+    width: 300px;
+}
